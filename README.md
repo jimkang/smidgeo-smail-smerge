@@ -21,9 +21,9 @@ This program relies on `sendmail` to actually send the mail. Usually, for `sendm
 
 - Put a csv whose first column is email addresses and whose other columns have stuff you want to insert into the template into the `data/` dir.
 - Put template file in to the data dir. It should be text file containing your email body including placeholders for the stuff you want to insert from the csv. Placeholders are numbers in angle brackets; `<zero-indexed column number>`. e.g.:
-
-    Hi, here is an email with stuff from column 2: <1>
-    And here's a thing from column 3: <2>
+        
+            Hi, here is an email with stuff from column 2: <1>
+            And here's a thing from column 3: <2>
 
 - Run `node csv-to-email-texts.js` (see command line args by running it without args first) on the csv and template to produce the email text files in `launch-bay/`.
 - Run `./send-emails launch-bay` to send the emails.
