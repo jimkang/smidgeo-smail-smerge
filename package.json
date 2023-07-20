@@ -1,0 +1,30 @@
+{
+  "name": "smidgeo-smail-smerge",
+  "version": "1.0.0",
+  "description": "World's worst mail merge. Brought to you by Smidgeo!",
+  "main": "index.js",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/smidgeo-smail-smerge.git"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Jim Kang",
+  "license": "Non-commercial",
+  "bugs": {
+    "url": "https://github.com/jimkang/smidgeo-smail-smerge/issues"
+  },
+  "homepage": "https://github.com/jimkang/smidgeo-smail-smerge",
+  "devDependencies": {
+    "assert-no-error": "^1.0.0",
+    "eslint": "^7.28.0",
+    "minimist": "^1.2.5",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "get-at-path": "^1.0.1"
+  }
+}
